@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto presenta un análisis de tendencias sobre un dataset de videojuegos utilizando **Python**, **Pandas** y visualizaciones estáticas. Se complementa con **pruebas de hipótesis** para identificar las plataformas, géneros y estrategias de comercialización más prometedoras de cara al año 2017.
+Este proyecto presenta un análisis de tendencias sobre un dataset de videojuegos utilizando **Python**, **Pandas** y visualizaciones. Se complementa con **pruebas de hipótesis** para identificar las plataformas, géneros y estrategias de comercialización más prometedoras de cara al año 2017.
 
 ## Objetivo del Proyecto
 
@@ -24,17 +24,12 @@ Explorar datos históricos de ventas, calificaciones y plataformas de videojuego
 
 El proyecto siguió una estructura secuencial para garantizar un análisis ordenado y lógico.
 
-[1] Carga y limpieza de datos
-↓
-[2] Análisis exploratorio (EDA)
-↓
-[3] Visualizaciones estáticas para tendencias globales y regionales
-↓
-[4] Pruebas de hipótesis (comparaciones entre plataformas y géneros)
-↓
-[5] Interpretación de resultados
-↓
-[6] Conclusiones y recomendaciones para 2017
+Carga y limpieza de datos    >
+Análisis exploratorio (EDA)  >
+Visualizaciones estáticas para tendencias globales y regionales  >
+Pruebas de hipótesis (comparaciones entre plataformas y géneros) >
+Interpretación de resultados >
+Conclusiones y recomendaciones para 2017
 
 ---
 
@@ -44,7 +39,7 @@ El proyecto siguió una estructura secuencial para garantizar un análisis orden
 * A partir de **2012**, las ventas globales disminuyeron debido al fin de ciclo de vida de varias consolas importantes.
 * Para el año 2017, **PS4**, **Xbox One** y **PC** mostraban el mayor potencial de mercado, con la PS4 como líder en crecimiento.
 * Las plataformas modernas (PS4, XOne y PC) presentan valores atípicos positivos en ventas, indicando un alto potencial para generar grandes éxitos comerciales (*blockbusters*).
-* Se encontró una **correlación moderada** entre las calificaciones de la crítica especializada y las ventas. En contraste, la correlación entre las calificaciones de los usuarios y las ventas fue casi nula.
+* Se encontró una **correlación moderada a baja** entre las calificaciones de la crítica especializada y las ventas. En contraste, la correlación entre las calificaciones de los usuarios y las ventas fue casi nula.
 * Los géneros más rentables a nivel global son **Action**, **Shooter** y **Sports**.
 * **Diferencias regionales clave**:
     * **Norteamérica y Europa**: Prefieren los géneros *Action* y *Shooter*.
