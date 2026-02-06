@@ -1,0 +1,42 @@
+# --- Entornos Virtuales y Dependencias ---
+venv/
+env/
+.env
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+installed.cfg
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.virtual_documents/ 
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Cursor & VS Code ---
+.vscode/
+# No ignoramos .cursorrules porque queremos que el repo mantenga las instrucciones de la IA
+# Pero sí ignoramos archivos temporales de VS Code
+*.code-workspace
+.history/
+
+# --- Datos y Salidas Locales ---
+*.log
+*.sqlite
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db

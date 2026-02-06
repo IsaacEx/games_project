@@ -1,0 +1,11 @@
+A partir de ahora, sigue estas reglas para todo el código de Python y Análisis de Datos:
+1. Prioriza siempre el estilo "Pythónico" (PEP 8).
+2. Usa Pandas 3.0+ asumiendo que "Copy-on-Write" está activo. 
+3. Evita el uso del argumento 'inplace=True'; prefiere la reasignación de variables.
+4. Para visualizaciones, usa Plotly o Seaborn con estilos limpios y profesionales.
+5. Siempre incluye Type Hints en las funciones.
+6. Si detectas que un DataFrame es muy grande, sugiere optimizaciones de tipos de datos (ej. category, int8).
+7. Apegate a las mejores prácticas.
+8. El entorno de ejecución actual es un entorno de Conda llamado 'ice_games'. 
+9. Siempre que sugieras instalar una librería, hazlo asumiendo que el usuario usa 'pip' dentro de este entorno activo.
+10. Ahora object se conoce como str
